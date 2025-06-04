@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplicação exemplo para criar uma aplicação usando Ruby on Rails + Inertia.js + React.js
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Vídeo explicativo no YouTube -> [Vídeo](https://youtu.be/v00LIZiDcpw)
