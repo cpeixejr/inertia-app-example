@@ -6,7 +6,7 @@ class ProfilesController < ApplicationController
   # GET /profiles
   def index
     @profiles = Profile.all
-    render inertia: 'Profile/Index', props: {
+    render inertia: "Profile/Index", props: {
       profiles: @profiles.map do |profile|
         serialize_profile(profile)
       end
@@ -15,7 +15,7 @@ class ProfilesController < ApplicationController
 
   # GET /profiles/1
   def show
-    render inertia: 'Profile/Show', props: {
+    render inertia: "Profile/Show", props: {
       profile: serialize_profile(@profile)
     }
   end
@@ -23,14 +23,14 @@ class ProfilesController < ApplicationController
   # GET /profiles/new
   def new
     @profile = Profile.new
-    render inertia: 'Profile/New', props: {
+    render inertia: "Profile/New", props: {
       profile: serialize_profile(@profile)
     }
   end
 
   # GET /profiles/1/edit
   def edit
-    render inertia: 'Profile/Edit', props: {
+    render inertia: "Profile/Edit", props: {
       profile: serialize_profile(@profile)
     }
   end
